@@ -29,7 +29,7 @@ print(list1[1::2])
      
 
 #list reverse without using function
-print('list reverse list1[::-1]',list[::-1])
+print('list reverse list1[::-1]',list1[::-1])
 
 print('list built -in methods')
 print('max(list2)=',max(list2))
