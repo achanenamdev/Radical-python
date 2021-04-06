@@ -82,6 +82,13 @@ print('list2=',list2)
 #list.index(element)
 print('list2,index("xyz")=',list2.index('xyz'))
 
+print('len(list2)=',len(list2))
+list2.append('xyz')
+list2.append('xyz')
+list2.append(10)
+print('list2',list2)
+print('len(list2)=',len(list2))
+
 #to count the number of occurances of element
 #list2.count(element)
 
