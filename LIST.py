@@ -62,6 +62,12 @@ list2.append('python')
 
 #list.extend(seq)
 list2. extend('rv')
+#list.extend(seq)
+
+list1.extend(list2)
+print('list1=',list1)
+#[10,15.5,'python','A','abc',['xyz','ABC','XYZ','python','r','v']
+print('len(list1)',len(list1))
 
 #list.append(seq)
 list1.append(list2)
