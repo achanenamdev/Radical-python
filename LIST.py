@@ -82,3 +82,15 @@ print('list2,index("xyz")=',list2.index('xyz'))
 print('list2.count("xyz")=',list2.count('xyz'))
 print('list2.count(10)=',list2.count(10))
 print('list2.count("xyz")=',list2.count("xyz"))
+
+#to remove the elements from the list
+#pop (index)
+#remove (element)
+
+#list.remove (element)
+print('list2',list2)
+print('list2.count("xyz")*=',list2.count("xyz"))
+list2.remove('xyz')
+
+print('list2',list2)
+print('list2.count("xyz")=',list2.count('xyz'))
