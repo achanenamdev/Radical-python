@@ -1,3 +1,4 @@
+list=Its a collaction which ordered and changeable.allows duplicate member
 
 list1=[10,15.5,'python','A','abc']
 list2=['xyz','ABC','xyz']
