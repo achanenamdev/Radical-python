@@ -40,6 +40,93 @@ else:
     
     
     
+a=['cat','mouse','rat']
+
+for counter in  'variable':
+    for x in a:
+        print(a)
+        len (a)
+        
+# control statement 
+#for loop
+
+num1,num2=10,20
+#range will generate sequence of no. syntax- range (start,end,step)
+#syntax i for counter in variable:
+    
+for i in range(0,11,2):
+    print(i)
+
+
+list1=['soun',"moun","pinky","guddu","duggu"]
+print(list1)
+
+#iterate the list with condition
+for i in list1:
+    if i == "pinky":
+        print(i)
+        
+for i in list1:
+    if i == "pinky":
+        break
+    print(i)
+    
+#iterate the list with condition
+for i in list1:
+    if i== "pinky":
+        continue
+    print(i)
+    
+dict1={ "name" : "newton",
+      "qual" : "me",
+      "city" : "pune"}
+print(dict1)
+
+#iterate the dict
+for i in dict1:
+    print(i)
+    
+for i in dict1:
+    print(dict1[i])
+
+
+for i in dict1.items():
+    print(i)
+    
+    
+for i in dict1:
+    print('key is ',i, "and value is",dict1[i])
+    
+for key, value in dict1.items():
+    print('key is',key,"and value is",value)
+    
+#drew pattern    
+for i in range(6,1,-1):
+    for i in range(6,1,-1):
+        if i==1:
+            print(' * ')
+
+#range can have negative no. as well            
+for i in range (-6,1):
+    print('range(-6,1)',i)
+                
+
+#write the python program to find out the average of a set of integers        
+num1=10 
+num2=20
+num3=30
+
+avg=(num1+num2+num3)/3
+#avg=sum of all item/no of items
+
+count=int(input("enter the count of numbers:"))
+i=0
+sum=0
+for i in range (count):
+    x=int(input("enter an integer:"))
+    sum =sum+x
+avg=sum/count
+print("the average is:",avg)
     
     
     
